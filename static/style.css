@@ -1,5 +1,62 @@
 * {
+    font-family: Arial;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body {
     background-color: lavender;
     color:grey;
-    font-family: Arial;
+    padding:10px
+}
+
+h1 {
+    color:darkslateblue;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    color:darkslategray;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color:indigo;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    max-width:1000px;
+    margin: 10px auto;
+}
+
+th {
+    background-color: darkslateblue;
+    color:white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: lavender;
+}
+
+tbody tr:hover {
+    background-color:purple;
 }
